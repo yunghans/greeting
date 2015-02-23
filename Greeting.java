@@ -18,11 +18,11 @@ public class Greeting{
 		int hour = now.get(Calendar.HOUR_OF_DAY);
 		
 		if (hour < 12) {
-			System.out.println("good morning " + name + "!");			
+			System.out.println("Good Morning " + name + "!");			
 		} else if (hour >=12 && hour <19) {
-			System.out.println("good afternoon " + name + "!");
+			System.out.println("Good Afternoon " + name + "!");
 		} else if (hour >=19){
-			System.out.println("good evening " + name + "!");
+			System.out.println("Good Evening " + name + "!");
 		}
 	}
   
